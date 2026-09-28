@@ -1,0 +1,67 @@
+# =========================
+# FastAPI / Server
+# =========================
+fastapi
+uvicorn[standard]
+
+# =========================
+# Authentication / Security
+# =========================
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+# =========================
+# Configuration / Environment
+# =========================
+pydantic
+pydantic-settings
+python-dotenv
+
+# =========================
+# Database
+# =========================
+sqlalchemy
+psycopg2-binary
+alembic
+
+# =========================
+# Cache
+# =========================
+redis
+
+# =========================
+# RAG / LLM
+# =========================
+langchain
+langchain-core
+langchain-community
+langchain-groq
+
+# =========================
+# Vector Database
+# =========================
+chromadb
+faiss-cpu
+
+# =========================
+# Embeddings
+# =========================
+sentence-transformers
+
+# =========================
+# Document Processing
+# =========================
+pypdf
+python-docx
+
+# =========================
+# HTTP Client
+# =========================
+httpx
+
+# =========================
+# Testing
+# =========================
+pytest
+pytest-asyncio
